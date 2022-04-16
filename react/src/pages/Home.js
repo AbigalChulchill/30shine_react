@@ -1,25 +1,57 @@
-// import img
-import Mocaw1 from "../assets/img/20220210_Banner_30Shine_Moca_w1.jpg";
-import BannerSC100w2 from "../assets/img/20220119_BannerSC100_w2.jpg";
-import Mocaw3 from "../assets/img/20220210_Banner_30Shine_Moca_w3.jpg";
-import vqmmw4 from "../assets/img/20220316_banner_vqmm_w4.jpg";
-import ToaSangw5 from "../assets/img/210814_Banner_toa_sang_w5.jpg";
-import Antoanw6 from "../assets/img/210814_Banner_an_toan_w6.jpg";
+// import img banner slider
+import Mocaw1 from "../assets/img/banner/20220210_Banner_30Shine_Moca_w1.jpg";
+import BannerSC100w2 from "../assets/img/banner/20220119_BannerSC100_w2.jpg";
+import Mocaw3 from "../assets/img/banner/20220210_Banner_30Shine_Moca_w3.jpg";
+import vqmmw4 from "../assets/img/banner/20220316_banner_vqmm_w4.jpg";
+import ToaSangw5 from "../assets/img/banner/210814_Banner_toa_sang_w5.jpg";
+import Antoanw6 from "../assets/img/banner/210814_Banner_an_toan_w6.jpg";
+// import icon arrow right
 import chevronRight from "../assets/img/chevronRight.0f447c60.svg";
-import bannercombo1 from "../assets/img/20220104-30shine-banner-shine-combo-1.jpg";
-import CatGoi2 from "../assets/img/30shine-cat-goi-massage-2.jpg";
-import uon2 from "../assets/img/30shine-uon-2.jpg";
-import nhuon2 from "../assets/img/30shine-nhuom-2.jpg";
-import dichvukhac2 from "../assets/img/30shine-dich-vu-khac-2.jpg";
-import khoiuonpc from "../assets/img/30shine-banner-khoi-uon-pc.jpg";
-import uon1 from "../assets/img/30shine-uon-1.jpg";
-import uon3 from "../assets/img/30shine-uon-3.jpg";
-import uon4 from "../assets/img/30shine-uon-4.jpg";
+// import trai nghiem dich vu
+import bannercombo1 from "../assets/img/trainghiemdichvu/20220104-30shine-banner-shine-combo-1.jpg";
+import CatGoi2 from "../assets/img/trainghiemdichvu/30shine-cat-goi-massage-2.jpg";
+import uondv2 from "../assets/img/trainghiemdichvu/30shine-uon-2.jpg";
+import nhuon2 from "../assets/img/trainghiemdichvu/30shine-nhuom-2.jpg";
+import dichvukhac2 from "../assets/img/trainghiemdichvu/30shine-dich-vu-khac-2.jpg";
+
+import khoiuonpc from "../assets/img/top1dichvu/30shine-banner-khoi-uon-pc.jpg";
+import uon1 from "../assets/img/top1dichvu/30shine-uon-1.jpg";
+import uon2 from "../assets/img/top1dichvu/30shine-uon2.jpg";
+import uon3 from "../assets/img/top1dichvu/30shine-uon-3.jpg";
+import uon4 from "../assets/img/top1dichvu/30shine-uon-4.jpg";
+
 import tantam1 from "../assets/img/lang-nghe-tan-tam-1.jpg";
 import tantam2 from "../assets/img/lang-nghe-tan-tam-2.jpg";
 import tantam3 from "../assets/img/lang-nghe-tan-tam-3.jpg";
-import ngoaihinh from "../assets/img/30shine-thay-doi-ngoai-hinh.jpg";
-import mullet from "../assets/img/30shine-toc-mullet.jpg";
+
+import ngoaihinh from "../assets/img/hanhtrinhtoasang/30shine-thay-doi-ngoai-hinh.jpg";
+import hotboy from "../assets/img/hanhtrinhtoasang/30shine-lot-xac-thanh-hot-boy.jpg";
+import mullet from "../assets/img/hanhtrinhtoasang/30shine-toc-mullet.jpg";
+import kientruc from "../assets/img/hanhtrinhtoasang/30shine-nam-sinh-kien-truc-lot-xac.jpg";
+
+import gril1 from "../assets/img/30shineangles/10089.jpg";
+import gril2 from "../assets/img/30shineangles/1949.jpg";
+import gril3 from "../assets/img/30shineangles/4801.jpg";
+import gril4 from "../assets/img/30shineangles/5760.jpg";
+import gril5 from "../assets/img/30shineangles/5950.jpg";
+import gril6 from "../assets/img/30shineangles/6943.jpg";
+import gril7 from "../assets/img/30shineangles/7423.jpg";
+import gril8 from "../assets/img/30shineangles/8076.jpg";
+import gril9 from "../assets/img/30shineangles/9298.jpg";
+import gril10 from "../assets/img/30shineangles/9687.jpg";
+import gril11 from "../assets/img/30shineangles/9773.jpg";
+import gril12 from "../assets/img/30shineangles/9984.jpg";
+// khong gian thiet bi
+import khongian1 from "../assets/img/khonggianthietbi/30shine-banner-khong-gian-salon.jpg";
+import khongian2 from "../assets/img/khonggianthietbi/30shinecon-cept-khong-gian-rong-lon-1.jpg";
+import khongian3 from "../assets/img/khonggianthietbi/30shinecon-cept-khong-gian-rong-lon-2.jpg";
+import khongian4 from "../assets/img/khonggianthietbi/30shinecon-cept-khong-gian-rong-lon-3.jpg";
+import khongian5 from "../assets/img/khonggianthietbi/30shine-concept-khong-gian-rong-lon-6.jpg";
+// nguoi truyen cam hung
+import camhung1 from "../assets/img/nguoitruyencamhung/30shine-ca-si-le-bao-binh.jpg";
+import camhung2 from "../assets/img/nguoitruyencamhung/30shine-ca-si-hoang-dung.jpg";
+import camhung3 from "../assets/img/nguoitruyencamhung/30shine-ca-si-lk.jpg";
+import camhung4 from "../assets/img/nguoitruyencamhung/30shine-dien-vien-thanh-son.jpg";
 
 import React from "react";
 
@@ -114,7 +146,7 @@ const Home = () => {
                 <a href="">
                   <div className="layout__list-item">
                     <div className="layout__item-img">
-                      <img src={uon2} alt="" />
+                      <img src={uondv2} alt="" />
                     </div>
                     <div className="item__content">
                       <div className="item__title">Uốn nhập khẩu Hàn</div>
@@ -259,10 +291,7 @@ const Home = () => {
             <div className="swiper__container">
               {/* <!--slide2: nếu nhiều hình ảnh sử dụng class này slide2 sau class swiper__wrapper--> */}
               <div className="swiper__wrapper ">
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
                       <img src={tantam1} alt="" />
@@ -274,10 +303,7 @@ const Home = () => {
                     </div>
                   </a>
                 </div>
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
                       <img src={tantam2} alt="" />
@@ -290,10 +316,7 @@ const Home = () => {
                     </div>
                   </a>
                 </div>
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
                       <img src={tantam3} alt="" />
@@ -329,10 +352,7 @@ const Home = () => {
             <div className="swiper__container">
               <div className="swiper__wrapper slider">
                 {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
                       <img src={ngoaihinh} alt="" />
@@ -346,10 +366,7 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
                       <img src={mullet} alt="" />
@@ -363,16 +380,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-lot-xac-thanh-hot-boy.jpg"
-                        alt=""
-                      />
+                      <img src={hotboy} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -382,16 +393,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 4 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-nam-sinh-kien-truc-lot-xac.jpg"
-                        alt=""
-                      />
+                      <img src={kientruc} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -421,13 +426,10 @@ const Home = () => {
             <div className="swiper__container">
               <div className="swiper__wrapper slide2">
                 {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/9773.jpg" alt="" />
+                      <img src={gril1} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -440,13 +442,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/7423.jpg" alt="" />
+                      <img src={gril2} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -459,13 +458,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/5950.jpg" alt="" />
+                      <img src={gril3} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -476,13 +472,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 4 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/9298.jpg" alt="" />
+                      <img src={gril4} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -495,13 +488,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 5 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/1949.jpg" alt="" />
+                      <img src={gril5} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -514,13 +504,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 6 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/4801.jpg" alt="" />
+                      <img src={gril6} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -533,13 +520,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 7 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/9984.jpg" alt="" />
+                      <img src={gril7} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -552,13 +536,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 8 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/8076.jpg" alt="" />
+                      <img src={gril8} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -571,13 +552,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 9 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/9687.jpg" alt="" />
+                      <img src={gril9} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -590,13 +568,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 10 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/10089.jpg" alt="" />
+                      <img src={gril10} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -609,13 +584,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 11 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/6943.jpg" alt="" />
+                      <img src={gril11} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -628,13 +600,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 12 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
+                <div className="swiper__slide">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/5760.jpg" alt="" />
+                      <img src={gril12} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -665,10 +634,7 @@ const Home = () => {
           <div className="layout__banner2">
             <div>
               <div className="layout__banner2-media">
-                <img
-                  src="./assets/img/30shine-banner-khong-gian-salon.jpg"
-                  alt=""
-                />
+                <img src={khongian1} alt="" />
               </div>
             </div>
             <div className="banner__wrapper">
@@ -687,10 +653,7 @@ const Home = () => {
                 <a href="">
                   <div className="layout__list-item">
                     <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shinecon-cept-khong-gian-rong-lon-1.jpg"
-                        alt=""
-                      />
+                      <img src={khongian2} alt="" />
                     </div>
                     <div className="item__content">
                       <div className="item__title">Salon rộng lớn dễ tìm</div>
@@ -705,10 +668,7 @@ const Home = () => {
                 <a href="">
                   <div className="layout__list-item">
                     <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shinecon-cept-khong-gian-rong-lon-2.jpg"
-                        alt=""
-                      />
+                      <img src={khongian3} alt="" />
                     </div>
                     <div className="item__content">
                       <div className="item__title">
@@ -725,10 +685,7 @@ const Home = () => {
                 <a href="">
                   <div className="layout__list-item">
                     <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shinecon-cept-khong-gian-rong-lon-3.jpg"
-                        alt=""
-                      />
+                      <img src={khongian4} alt="" />
                     </div>
                     <div className="item__content">
                       <div className="item__title">Làm chủ thời gian</div>
@@ -743,10 +700,7 @@ const Home = () => {
                 <a href="">
                   <div className="layout__list-item">
                     <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shine-concept-khong-gian-rong-lon-6.jpg"
-                        alt=""
-                      />
+                      <img src={khongian5} alt="" />
                     </div>
                     <div className="item__content">
                       <div className="item__title">Trải nghiệm âm nhạc</div>
@@ -776,7 +730,7 @@ const Home = () => {
               </div>
               <div className="layout__head-view-all">
                 <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
+                <img src={chevronRight} alt="" />
               </div>
             </div>
           </a>
@@ -784,16 +738,10 @@ const Home = () => {
             <div className="swiper__container">
               <div className="swiper__wrapper slider">
                 {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-ca-si-le-bao-binh.jpg"
-                        alt=""
-                      />
+                      <img src={camhung1} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -804,13 +752,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img src="./assets/img/30shine-ca-si-lk.jpg" alt="" />
+                      <img src={camhung2} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -820,16 +765,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-ca-si-hoang-dung.jpg"
-                        alt=""
-                      />
+                      <img src={camhung3} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -840,16 +779,10 @@ const Home = () => {
                   </a>
                 </div>
                 {/* <!-- 4 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 570px; margin-right: 30px;"
-                >
+                <div className="swiper__slide2">
                   <a href="">
                     <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-dien-vien-thanh-son.jpg"
-                        alt=""
-                      />
+                      <img src={camhung4} alt="" />
                     </div>
                   </a>
                   <a href="">
@@ -859,651 +792,6 @@ const Home = () => {
                     </div>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Khám phá kiểu tóc --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <a href="">
-            <div className="layout__head">
-              <div>
-                <div className="head__title">Khám phá kiểu tóc</div>
-                <div className="head__title head__sub-title">
-                  Nguồn cảm hứng cho kiểu tóc mới của bạn
-                </div>
-              </div>
-              <div className="layout__head-view-all">
-                <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <div className="layout__banner2">
-            <div>
-              <a href="">
-                <div className="layout__banner2-media">
-                  <img
-                    src="./assets/img/30shine-banner-kham-pha-kieu-to.jpg"
-                    alt=""
-                  />
-                </div>
-              </a>
-            </div>
-            <div className="banner__wrapper">
-              <div className="banner__title">KHÁM PHÁ KIỂU TÓC</div>
-              <div className="banner__text">
-                Nguồn cảm hứng cho kiểu tóc mới của bạn từ hàng ngàn mẫu tóc hot
-                trend do 30Shine thiết kế
-              </div>
-            </div>
-          </div>
-
-          <div className="layout__list ">
-            <div className="layout__list-wraper row">
-              <div className="col-xl-6">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shine-kham-pha-kieu-toc-style-mater.png"
-                        alt=""
-                      />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Khám phá kiểu tóc</div>
-                      <div className="item__subTitle">
-                        Tìm cảm hứng đổi mới cho mái tóc
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-6">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img
-                        src="./assets/img/30shine-kham-pha-kieu-toc.png"
-                        alt=""
-                      />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Style Master</div>
-                      <div className="item__subTitle">
-                        BXH các kiểu tóc hot trong tháng
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- An tâm và tin tưởng --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <div className="layout__head">
-            <div>
-              <div className="head__title">An tâm & tin tưởng</div>
-              <div className="head__title head__sub-title">
-                Cam kết phòng dịch tối đa & mỹ phẩm chính hãng
-              </div>
-            </div>
-          </div>
-          <div className="layout__blog">
-            <div className="swiper__container">
-              {/* <!--slide2: nếu nhiều hình ảnh sử dụng class này slide2 sau class swiper__wrapper--> */}
-              <div className="swiper__wrapper ">
-                {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-so-1-ve-an-toan-3.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">
-                      Phòng chống Covid-19 - Vì sức khoẻ khách hàng, nhân viên
-                      và cộng đồng
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-so-1-ve-an-toan-4.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">
-                      Mỹ phẩm & sản phẩm - Cam kết chất lượng - Đảm bảo xuất xứ
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/30shine-so-1-ve-an-toan-5.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Bảo quản xe cộ, đồ đạc</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- ưu đãi --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <a href="">
-            <div className="layout__head">
-              <div>
-                <div className="head__title">Ưu đãi</div>
-                <div className="head__title head__sub-title">
-                  Quà tặng, chiết khấu đặc biệt cập nhật liên tục
-                </div>
-              </div>
-              <div className="layout__head-view-all">
-                <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <div className="layout__blog">
-            <div className="swiper__container">
-              <div className="swiper__wrapper slide2">
-                {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Renewal_Shine_Box_52e0afdf59.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Renewal Shine Box</div>
-                  </a>
-                </div>
-                {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Balance_Skin_Shine_Box_663898d441.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Balance Skin Shine Box</div>
-                  </a>
-                </div>
-                {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Firming_Shine_Box_697f959a69.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Firming Shine Box </div>
-                  </a>
-                </div>
-                {/* <!-- 4 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Brightening_Shine_Box_c57e154415.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Brightening Shine Box</div>
-                  </a>
-                </div>
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Smoothing_Shine_Box_148913eb8e.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Smoothing Shine Box </div>
-                  </a>
-                </div>
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/small_Shimmering_Shine_Box_efc516076e.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">Shimmering Shine Box </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- 30 shine shop  --> */}
-      <div className="layout layout__service">
-        <div className="container">
-          <a href="">
-            <div className="layout__head">
-              <div>
-                <div className="head__title">30Shine Shop</div>
-                <div className="head__title head__sub-title">
-                  Mỹ phẩm nam cao cấp chính hãng
-                </div>
-              </div>
-              <div className="layout__head-view-all">
-                <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <div className="layout__banner">
-            <a href="">
-              <div className="layout__banner-media">
-                <img src="./assets/img/banner-shop.jpg" alt="" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      {/* <!-- shine member --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <div className="layout__head">
-            <div>
-              <div className="head__title">Shine Member</div>
-              <div className="head__title head__sub-title">
-                Tham gia ngay cùng 700.000 hội viên với quyền lợi đặc biệt
-              </div>
-            </div>
-          </div>
-          <div className="layout__blog">
-            <div className="swiper__container">
-              {/* <!--slide2: nếu nhiều hình ảnh sử dụng class này slide2 sau class swiper__wrapper--> */}
-              <div className="swiper__wrapper ">
-                {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 312.857px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img
-                        src="./assets/img/20220103-ShineMember2022-v2.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </a>
-                  <a href="">
-                    <div className="blog__title">
-                      Silver/Gold Member và hàng ngàn quyền lợi
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- shine moment --> */}
-      <div className="layout layout__media">
-        <div className="container">
-          <div className="layout__head">
-            <div>
-              <div className="head__title">Shine Moment</div>
-              <div className="head__title head__sub-title">
-                Cùng lan tỏa những phút giây tỏa sáng tại 30Shine
-              </div>
-            </div>
-          </div>
-          <div className="layout__blog">
-            <div className="swiper__container">
-              <div className="swiper__wrapper slide3">
-                {/* <!-- 1 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A1.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 2 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A2.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 3 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A3.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 4 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A4.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 5 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A5.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 6 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A6.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 7 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A7.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 8 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A8.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 9 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A9.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-                {/* <!-- 10 --> */}
-                <div
-                  className="swiper__slide"
-                  style="width: 270px; margin-right: 30px;"
-                >
-                  <a href="">
-                    <div className="blog__media">
-                      <img src="./assets/img/A10.jpg" alt="" />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- cam kết 30shine care --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <a href="">
-            <div className="layout__head">
-              <div>
-                <div className="head__title">Cam kết 30Shine Care</div>
-                <div className="head__title head__sub-title">
-                  Sự hài lòng của bạn là ưu tiên hàng đầu của 30Shine
-                </div>
-              </div>
-              <div className="layout__head-view-all">
-                <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <div className="layout__banner2">
-            <div>
-              <a href="">
-                <div className="layout__banner2-media">
-                  <img src="./assets/img/banner-30shine-care-5.jpg" alt="" />
-                </div>
-              </a>
-            </div>
-            <div className="banner__wrapper">
-              <div className="banner__title">
-                VÌ CHẤT LƯỢNG PHỤC VỤ LÀ HÀNG ĐẦU
-              </div>
-              <div className="banner__text">
-                Áp dụng tại salon bất kỳ trên toàn hệ thống 30Shine
-              </div>
-            </div>
-          </div>
-          <div className="layout__list ">
-            <div className="layout__list-wraper row">
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/care/2-care.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">7 ngày</div>
-                      <div className="item__subTitle">
-                        Chỉnh sửa tóc miễn phí
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/care/30days-care.jpg" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">30 ngày</div>
-                      <div className="item__subTitle">
-                        Dổi trả hàng miễn phí
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/care/3-care.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">15 ngày</div>
-                      <div className="item__subTitle">Bảo hành Uốn Nhuộm</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/care/4-care.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Giảm 20%</div>
-                      <div className="item__subTitle">Nếu chờ đợi quá lâu</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <!-- Tìm 30Shine gần nhất --> */}
-      <div className="layout layout__blog">
-        <div className="container">
-          <a href="">
-            <div className="layout__head">
-              <div>
-                <div className="head__title">Tìm 30Shine gần nhất</div>
-                <div className="head__title head__sub-title">
-                  Để xe thuận tiện an toàn, bản đồ dẫn đường chi tiết (79 salon)
-                </div>
-              </div>
-              <div className="layout__head-view-all">
-                <span>Xem tất cả</span>
-                <img src="./assets/img/chevronRight.0f447c60.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <div className="layout__list ">
-            <div className="layout__list-wraper row">
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/maps/salon-hcm.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">TP.Hồ Chí Minh</div>
-                      <div className="item__subTitle">40 Salon</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/maps/salon-hanoi.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Hà Nội</div>
-                      <div className="item__subTitle">18 Salon</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/maps/salon-danang.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Đà Năng</div>
-                      <div className="item__subTitle">1 Salon</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xl-3">
-                <a href="">
-                  <div className="layout__list-item">
-                    <div className="layout__item-img">
-                      <img src="./assets/img/maps/salon-other.png" alt="" />
-                    </div>
-                    <div className="item__content">
-                      <div className="item__title">Thành phố khác</div>
-                      <div className="item__subTitle">20 Salon</div>
-                    </div>
-                  </div>
-                </a>
               </div>
             </div>
           </div>
