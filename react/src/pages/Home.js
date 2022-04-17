@@ -20,9 +20,9 @@ import uon2 from "../assets/img/top1dichvu/30shine-uon2.jpg";
 import uon3 from "../assets/img/top1dichvu/30shine-uon-3.jpg";
 import uon4 from "../assets/img/top1dichvu/30shine-uon-4.jpg";
 
-import tantam1 from "../assets/img/lang-nghe-tan-tam-1.jpg";
-import tantam2 from "../assets/img/lang-nghe-tan-tam-2.jpg";
-import tantam3 from "../assets/img/lang-nghe-tan-tam-3.jpg";
+import tantam1 from "../assets/img/langnghetantam/lang-nghe-tan-tam-1.jpg";
+import tantam2 from "../assets/img/langnghetantam/lang-nghe-tan-tam-2.jpg";
+import tantam3 from "../assets/img/langnghetantam/lang-nghe-tan-tam-3.jpg";
 
 import ngoaihinh from "../assets/img/hanhtrinhtoasang/30shine-thay-doi-ngoai-hinh.jpg";
 import hotboy from "../assets/img/hanhtrinhtoasang/30shine-lot-xac-thanh-hot-boy.jpg";
@@ -52,6 +52,46 @@ import camhung1 from "../assets/img/nguoitruyencamhung/30shine-ca-si-le-bao-binh
 import camhung2 from "../assets/img/nguoitruyencamhung/30shine-ca-si-hoang-dung.jpg";
 import camhung3 from "../assets/img/nguoitruyencamhung/30shine-ca-si-lk.jpg";
 import camhung4 from "../assets/img/nguoitruyencamhung/30shine-dien-vien-thanh-son.jpg";
+// kham pha kieu toc
+import kieutocbaner1 from "../assets/img/khamphakieutoc/30shine-banner-kham-pha-kieu-to.jpg";
+import kieutoc2 from "../assets/img/khamphakieutoc/30shine-kham-pha-kieu-toc.png";
+import kieutoc3 from "../assets/img/khamphakieutoc/30shine-kham-pha-kieu-toc-style-mater.png";
+// an tam tin tuong
+import antam1 from "../assets/img/antamtintuong/30shine-so-1-ve-an-toan-3.jpg";
+import antam2 from "../assets/img/antamtintuong/30shine-so-1-ve-an-toan-4.jpg";
+import antam3 from "../assets/img/antamtintuong/30shine-so-1-ve-an-toan-5.jpg";
+// uu dai
+import uudai1 from "../assets/img/uudai/small_Balance_Skin_Shine_Box_663898d441.jpg";
+import uudai2 from "../assets/img/uudai/small_Brightening_Shine_Box_c57e154415.jpg";
+import uudai3 from "../assets/img/uudai/small_Firming_Shine_Box_697f959a69.jpg";
+import uudai4 from "../assets/img/uudai/small_Renewal_Shine_Box_52e0afdf59.jpg";
+import uudai5 from "../assets/img/uudai/small_Shimmering_Shine_Box_efc516076e.jpg";
+import uudai6 from "../assets/img/uudai/small_Smoothing_Shine_Box_148913eb8e.jpg";
+// 30shine shop and member
+import bannershop from "../assets/img/30shineshopmember/banner-shop.jpg";
+import member1 from "../assets/img/30shineshopmember/20220103-ShineMember2022-v2.jpg";
+// 30shine moment
+import moment1 from "../assets/img/shinemoment/A1.jpg";
+import moment2 from "../assets/img/shinemoment/A2.jpg";
+import moment3 from "../assets/img/shinemoment/A3.jpg";
+import moment4 from "../assets/img/shinemoment/A4.jpg";
+import moment5 from "../assets/img/shinemoment/A5.jpg";
+import moment6 from "../assets/img/shinemoment/A6.jpg";
+import moment7 from "../assets/img/shinemoment/A7.jpg";
+import moment8 from "../assets/img/shinemoment/A8.jpg";
+import moment9 from "../assets/img/shinemoment/A9.jpg";
+import moment10 from "../assets/img/shinemoment/A10.jpg";
+// cam ket
+import camketbn from "../assets/img/camketcare/banner-30shine-care-5.jpg";
+import camket7 from "../assets/img/camketcare/2-care.png";
+import camket30 from "../assets/img/camketcare/30days-care.jpg";
+import camket15 from "../assets/img/camketcare/3-care.png";
+import camket20 from "../assets/img/camketcare/4-care.png";
+// tim 30shine gan nhat
+import gannhat1 from "../assets/img/maps/salon-hcm.png";
+import gannhat2 from "../assets/img/maps/salon-hanoi.png";
+import gannhat3 from "../assets/img/maps/salon-danang.png";
+import gannhat4 from "../assets/img/maps/salon-other.png";
 
 import React from "react";
 
