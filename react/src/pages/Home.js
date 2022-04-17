@@ -837,8 +837,553 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      
+      {/* <!-- Khám phá kiểu tóc --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <a href="">
+            <div className="layout__head">
+              <div>
+                <div className="head__title">Khám phá kiểu tóc</div>
+                <div className="head__title head__sub-title">
+                  Nguồn cảm hứng cho kiểu tóc mới của bạn
+                </div>
+              </div>
+              <div className="layout__head-view-all">
+                <span>Xem tất cả</span>
+                <img src={chevronRight} alt="" />
+              </div>
+            </div>
+          </a>
+          <div className="layout__banner2">
+            <div>
+              <a href="">
+                <div className="layout__banner2-media">
+                  <img src={kieutocbaner1} alt="" />
+                </div>
+              </a>
+            </div>
+            <div className="banner__wrapper">
+              <div className="banner__title">KHÁM PHÁ KIỂU TÓC</div>
+              <div className="banner__text">
+                Nguồn cảm hứng cho kiểu tóc mới của bạn từ hàng ngàn mẫu tóc hot
+                trend do 30Shine thiết kế
+              </div>
+            </div>
+          </div>
+          <div className="layout__list ">
+            <div className="layout__list-wraper row">
+              <div className="col-xl-6">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={kieutoc2} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Khám phá kiểu tóc</div>
+                      <div className="item__subTitle">
+                        Tìm cảm hứng đổi mới cho mái tóc
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-6">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={kieutoc3} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Style Master</div>
+                      <div className="item__subTitle">
+                        BXH các kiểu tóc hot trong tháng
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- An tâm và tin tưởng --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <div className="layout__head">
+            <div>
+              <div className="head__title">An tâm & tin tưởng</div>
+              <div className="head__title head__sub-title">
+                Cam kết phòng dịch tối đa & mỹ phẩm chính hãng
+              </div>
+            </div>
+          </div>
+          <div className="layout__blog">
+            <div className="swiper__container">
+              {/* <!--slide2: nếu nhiều hình ảnh sử dụng class này slide2 sau class swiper__wrapper--> */}
+              <div className="swiper__wrapper ">
+                {/* <!-- 1 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={antam1} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">
+                      Phòng chống Covid-19 - Vì sức khoẻ khách hàng, nhân viên
+                      và cộng đồng
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 2 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={antam2} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">
+                      Mỹ phẩm & sản phẩm - Cam kết chất lượng - Đảm bảo xuất xứ
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 3 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={antam3} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Bảo quản xe cộ, đồ đạc</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- ưu đãi --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <a href="">
+            <div className="layout__head">
+              <div>
+                <div className="head__title">Ưu đãi</div>
+                <div className="head__title head__sub-title">
+                  Quà tặng, chiết khấu đặc biệt cập nhật liên tục
+                </div>
+              </div>
+              <div className="layout__head-view-all">
+                <span>Xem tất cả</span>
+                <img src={chevronRight} alt="" />
+              </div>
+            </div>
+          </a>
+          <div className="layout__blog">
+            <div className="swiper__container">
+              <div className="swiper__wrapper slide2">
+                {/* <!-- 1 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai1} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Renewal Shine Box</div>
+                  </a>
+                </div>
+                {/* <!-- 2 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai2} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Balance Skin Shine Box</div>
+                  </a>
+                </div>
+                {/* <!-- 3 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai3} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Firming Shine Box </div>
+                  </a>
+                </div>
+                {/* <!-- 4 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai4} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Brightening Shine Box</div>
+                  </a>
+                </div>
+                {/* 5 */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai5} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Smoothing Shine Box </div>
+                  </a>
+                </div>
+                {/* 6 */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={uudai6} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">Shimmering Shine Box </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- 30 shine shop  --> */}
+      <div className="layout layout__service">
+        <div className="container">
+          <a href="">
+            <div className="layout__head">
+              <div>
+                <div className="head__title">30Shine Shop</div>
+                <div className="head__title head__sub-title">
+                  Mỹ phẩm nam cao cấp chính hãng
+                </div>
+              </div>
+              <div className="layout__head-view-all">
+                <span>Xem tất cả</span>
+                <img src={chevronRight} alt="" />
+              </div>
+            </div>
+          </a>
+          <div className="layout__banner">
+            <a href="">
+              <div className="layout__banner-media">
+                <img src={bannershop} alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <!-- shine member --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <div className="layout__head">
+            <div>
+              <div className="head__title">Shine Member</div>
+              <div className="head__title head__sub-title">
+                Tham gia ngay cùng 700.000 hội viên với quyền lợi đặc biệt
+              </div>
+            </div>
+          </div>
+          <div className="layout__blog">
+            <div className="swiper__container">
+              {/* <!--slide2: nếu nhiều hình ảnh sử dụng class này slide2 sau class swiper__wrapper--> */}
+              <div className="swiper__wrapper ">
+                {/* <!-- 1 --> */}
+                <div className="swiper__slide">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={member1} alt="" />
+                    </div>
+                  </a>
+                  <a href="">
+                    <div className="blog__title">
+                      Silver/Gold Member và hàng ngàn quyền lợi
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- shine moment --> */}
+      <div className="layout layout__media">
+        <div className="container">
+          <div className="layout__head">
+            <div>
+              <div className="head__title">Shine Moment</div>
+              <div className="head__title head__sub-title">
+                Cùng lan tỏa những phút giây tỏa sáng tại 30Shine
+              </div>
+            </div>
+          </div>
+          <div className="layout__blog">
+            <div className="swiper__container">
+              <div className="swiper__wrapper slide3">
+                {/* <!-- 1 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment1} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 2 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment2} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 3 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment3} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 4 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment4} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 5 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment5} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 6 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment6} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 7 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment7} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 8 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment8} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 9 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment9} alt="" />
+                    </div>
+                  </a>
+                </div>
+                {/* <!-- 10 --> */}
+                <div className="swiper__slide3">
+                  <a href="">
+                    <div className="blog__media">
+                      <img src={moment10} alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- cam kết 30shine care --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <a href="">
+            <div className="layout__head">
+              <div>
+                <div className="head__title">Cam kết 30Shine Care</div>
+                <div className="head__title head__sub-title">
+                  Sự hài lòng của bạn là ưu tiên hàng đầu của 30Shine
+                </div>
+              </div>
+              <div className="layout__head-view-all">
+                <span>Xem tất cả</span>
+                <img src={chevronRight} alt="" />
+              </div>
+            </div>
+          </a>
+          <div className="layout__banner2">
+            <div>
+              <a href="">
+                <div className="layout__banner2-media">
+                  <img src={camketbn} alt="" />
+                </div>
+              </a>
+            </div>
+            <div className="banner__wrapper">
+              <div className="banner__title">
+                VÌ CHẤT LƯỢNG PHỤC VỤ LÀ HÀNG ĐẦU
+              </div>
+              <div className="banner__text">
+                Áp dụng tại salon bất kỳ trên toàn hệ thống 30Shine
+              </div>
+            </div>
+          </div>
+          <div className="layout__list ">
+            <div className="layout__list-wraper row">
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={camket7} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">7 ngày</div>
+                      <div className="item__subTitle">
+                        Chỉnh sửa tóc miễn phí
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={camket30} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">30 ngày</div>
+                      <div className="item__subTitle">
+                        Dổi trả hàng miễn phí
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={camket15} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">15 ngày</div>
+                      <div className="item__subTitle">Bảo hành Uốn Nhuộm</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={camket20} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Giảm 20%</div>
+                      <div className="item__subTitle">Nếu chờ đợi quá lâu</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- Tìm 30Shine gần nhất --> */}
+      <div className="layout layout__blog">
+        <div className="container">
+          <a href="">
+            <div className="layout__head">
+              <div>
+                <div className="head__title">Tìm 30Shine gần nhất</div>
+                <div className="head__title head__sub-title">
+                  Để xe thuận tiện an toàn, bản đồ dẫn đường chi tiết (79 salon)
+                </div>
+              </div>
+              <div className="layout__head-view-all">
+                <span>Xem tất cả</span>
+                <img src={chevronRight} alt="" />
+              </div>
+            </div>
+          </a>
+          <div className="layout__list ">
+            <div className="layout__list-wraper row">
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={gannhat1} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">TP.Hồ Chí Minh</div>
+                      <div className="item__subTitle">40 Salon</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={gannhat2} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Hà Nội</div>
+                      <div className="item__subTitle">18 Salon</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={gannhat3} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Đà Năng</div>
+                      <div className="item__subTitle">1 Salon</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-xl-3">
+                <a href="">
+                  <div className="layout__list-item">
+                    <div className="layout__item-img">
+                      <img src={gannhat4} alt="" />
+                    </div>
+                    <div className="item__content">
+                      <div className="item__title">Thành phố khác</div>
+                      <div className="item__subTitle">20 Salon</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
