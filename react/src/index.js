@@ -4,6 +4,8 @@ import App from "./App";
 import "./styles/main.css";
 import "./styles/style.css";
 import "./styles/lightslider.css";
+import "./styles/trainghiemdichvu.css"
+
 import { BrowserRouter as Router } from "react-router-dom";
 
 import "../src/assets/bootstrap/css/bootstrap.css";
