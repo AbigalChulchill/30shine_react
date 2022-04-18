@@ -555,3 +555,9 @@
   margin-right: 3rem;
   color: var(--white-cl-f);
 }
+
+
+.service__tile{
+  font-size: 3rem;
+  color: red;
+}
